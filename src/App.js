@@ -9,6 +9,7 @@ Modal.setAppElement(appElement);
 const isDev = process.env.NODE_ENV !== 'production';
 // BORED API stuffs 
 const BORED_API = isDev ? '/activity' : 'https://boredapi.com/activity';
+
 class App extends Component {
   constructor(props) {
     super(props);
