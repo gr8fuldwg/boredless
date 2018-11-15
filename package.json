@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-modal": "^3.6.1",
@@ -29,6 +30,6 @@
   "devDependencies": {
     "gh-pages": "^2.0.1"
   },
-
-"homepage": "https://gr8fuldwg.com/boredless"
+  "homepage": "https://gr8fuldwg.com/boredless",
+  "proxy": "https://boredapi.com/api/"
 }
